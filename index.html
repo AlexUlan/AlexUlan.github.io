@@ -2,11 +2,12 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/normolize.css" rel="stylesheet">
     <link href="scss/style.css" rel="stylesheet">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <title>Disconte</title>
 </head>
 <body>
     <header class="header">
@@ -14,10 +15,22 @@
             <div class="header__row">
 
                 <div class="header__logo">
-                    <img src="img/logo.png" alt="logo">
+
+                    <a href="#">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                  
                 </div>
 
+
                 <nav class="header__menu">
+
+                    <input type="checkbox" id="check-menu" class="header__menu-checkbox">
+                    <label for="check-menu" class="header__menu-check">MENU</label>
+                    <div class="burger-line first"></div>
+                    <div class="burger-line second"></div>
+                    <div class="burger-line third"></div>
+                    <div class="burger-line fourth"></div>
                     <ul class="header__list"> 
                         <li><a href="#">Как будет проходить</a></li>
                         <li><a href="#">Кто может участвовать</a></li>
@@ -28,10 +41,12 @@
                     </ul>
                 </nav>
 
+
+
             </div>
 
-            <div class="header__banner">
-                <div class="banner">
+            <div class="header__banner ">
+                <div class="banner bounceIn">
                 <h2 class="banner-user">станьте участником</h2>
                 <h1 class="banner-title">маштабной осенней </br> распродажи</h1>
                 <div class="banner-city city">в Челябенске</div>
@@ -259,7 +274,7 @@
                         <div class="presentation__item_logo">
                             <img src="img/presentationSection/line-chart.png" alt="">
                         </div> 
-                        <div class="presentation__item_title">Прибыль <br>и новые клиенты</div> 
+                        <div class="presentation__item_title">Прибыль и новые клиенты</div> 
                         <div class="presentation__item_info">
                             В дни акции вы сможете увеличить 
                             выручку в среднем в 2 раза от обычной. 
@@ -316,7 +331,7 @@
             <div class="total__building">
               
 
-                    <div class="total__header">
+                    <div class="total__header pulse">
                         <div class="total__header_info">
                         Это будет мероприятие городского масштаба. <br> О вашей компании узнают все жители 
                         </div>  
@@ -387,10 +402,6 @@
                   
                     </div>
                 </div>
-                    
-
-
-
             <div class="total__colorfullTriangle">
                     <img src="img/7.png" alt="">
             </div>
@@ -592,7 +603,7 @@
                 городских сайтов и поисковиков. В оффлайне основным каналом будет наружная реклама.</spna>
                 
             </div>
-            <div class="contacks__social">
+            <div class="contacts__social">
                 <div class="social__row">
 
                     <div class="social__items">
